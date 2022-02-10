@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 // int main() {
 //     // printf("Hello World\n");
@@ -35,7 +36,21 @@
 //     printf("%s\n", arr1);
 // }
 
+//int main() {
+//  printf("c:\\test\\test.c");
+//  return 0;
+//}
+
+//int main() {
+//  printf("%c\n", '\130'); //输出X 
+//  return 0;
+//}
+
+//int main() {
+//  printf("%c\n", '\x31'); //输出1
+//  return 0;
+//}
+
 int main() {
-    printf("c:\\test\\test.c");
-    return 0;
+    printf("%lu\n", strlen("c:\test\628\test.c"));
 }
