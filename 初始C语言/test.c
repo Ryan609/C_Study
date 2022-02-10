@@ -30,7 +30,12 @@
 //     printf("%d\n", sum);
 // }
 
+// int main() {
+//     char arr1[] = "abc";
+//     printf("%s\n", arr1);
+// }
+
 int main() {
-    char arr1[] = "abc";
-    printf("%s\n", arr1);
+    printf("c:\\test\\test.c");
+    return 0;
 }
