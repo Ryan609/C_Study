@@ -20,12 +20,17 @@
 // }
 //------------------------------------------------
 
-int main(){
-    int num1 = 0;
-    int num2 = 0;
-    int sum = 0;
+// int main(){
+//     int num1 = 0;
+//     int num2 = 0;
+//     int sum = 0;
 
-    scanf("%d %d", &num1, &num2);
-    sum = num1 + num2;
-    printf("%d\n", sum);
+//     scanf("%d %d", &num1, &num2);
+//     sum = num1 + num2;
+//     printf("%d\n", sum);
+// }
+
+int main() {
+    char arr1[] = "abc";
+    printf("%s\n", arr1);
 }
