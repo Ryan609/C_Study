@@ -56,20 +56,37 @@
 //}
 
 //------------------------------------------------ while循环和if判断
-int main() {
-    int line = 0;
-    printf("study\n");
+// int main() {
+//     int line = 0;
+//     printf("study\n");
 
-    while (line < 20000)
-    {
-        printf("%d:Code\n", line);
-        line++;
-    }
-    if (line < 20000)
-    {
-        printf("study\n");
-    } else {
-        printf("NB\n");
-    }
-}
+//     while (line < 20000)
+//     {
+//         printf("%d:Code\n", line);
+//         line++;
+//     }
+//     if (line < 20000)
+//     {
+//         printf("study\n");
+//     } else {
+//         printf("NB\n");
+//     }
+// }
 //------------------------------------------------ 
+int a = 1;
+
+void test() {
+    //int a = 1;
+    a++;
+    printf("%d ", a);
+}
+
+int main() {
+    int i = 0;
+    while (i < 10)
+    {
+        test();
+        i++;
+    } 
+    return 0;
+}
