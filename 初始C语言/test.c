@@ -51,6 +51,25 @@
 //  return 0;
 //}
 
+//int main() {
+//  printf("%lu\n", strlen("c:\test\628\test.c"));
+//}
+
+//------------------------------------------------ while循环和if判断
 int main() {
-    printf("%lu\n", strlen("c:\test\628\test.c"));
+    int line = 0;
+    printf("study\n");
+
+    while (line < 20000)
+    {
+        printf("%d:Code\n", line);
+        line++;
+    }
+    if (line < 20000)
+    {
+        printf("study\n");
+    } else {
+        printf("NB\n");
+    }
 }
+//------------------------------------------------ 
