@@ -73,22 +73,31 @@
 //     }
 // }
 //------------------------------------------------ 
-int a = 1;
+// int a = 1;
 
-void test() {
-    //int a = 1;
-    a++;
-    printf("%d ", a);
-}
+// void test() {
+//     //int a = 1;
+//     a++;
+//     printf("%d ", a);
+// }
 
+// int main() {
+//     int i = 0;
+//     while (i < 10)
+//     {
+//         test();
+//         i++;
+//     } 
+//     return 0;
+// }
+//------------------------------------------------ 
 int main() {
-    int i = 0;
-    while (i < 10)
-    {
-        test();
-        i++;
-    } 
-    return 0;
+    int a = 10;
+    printf("%p\n", &a);
+
+    char ch = 'w';
+    char* pc = &ch;
+    *pc = 'q';
+    printf("%c\n", ch);
 }
 
-HXC大傻子
