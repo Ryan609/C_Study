@@ -90,30 +90,30 @@
 //     } 
 // }
 //---------------------------------二分查找
-int main() {
-    int arr[] = {1,2,3,4,5,6,7,8,9,10};
-    int k = 9;
+// int main() {
+//     int arr[] = {1,2,3,4,5,6,7,8,9,10};
+//     int k = 9;
 
-    int length = sizeof(arr) / sizeof(arr[0]);
-    int left = 0;
-    int right = length - 1;
+//     int length = sizeof(arr) / sizeof(arr[0]);
+//     int left = 0;
+//     int right = length - 1;
     
 
-    while (left <= right)
-    {
-        int mid = (left + right) / 2;
-        if (arr[mid] < k)
-        {
-            left = mid + 1;
-        } else if (arr[mid] > k)
-        {
-            right = mid - 1;
-        } else 
-        {
-            printf("下标是: %d\n", mid);
-            break;
-        } 
-    }
-    return 0;
-}
-//---------------------------------
+//     while (left <= right)
+//     {
+//         int mid = left + (right - left) / 2;
+//         if (arr[mid] < k)
+//         {
+//             left = mid + 1;
+//         } else if (arr[mid] > k)
+//         {
+//             right = mid - 1;
+//         } else 
+//         {
+//             printf("下标是: %d\n", mid);
+//             break;
+//         } 
+//     }
+//     return 0;
+// }
+//---------------------------------多个字符从两端移动，向中间汇聚

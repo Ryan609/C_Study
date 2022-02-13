@@ -91,13 +91,13 @@
 //     return 0;
 // }
 //------------------------------------------------ 
-int main() {
-    int a = 10;
-    printf("%p\n", &a);
+// int main() {
+//     int a = 10;
+//     printf("%p\n", &a);
 
-    char ch = 'w';
-    char* pc = &ch;
-    *pc = 'q';
-    printf("%c\n", ch);
-}
+//     char ch = 'w';
+//     char* pc = &ch;
+//     *pc = 'q';
+//     printf("%c\n", ch);
+// }
 
