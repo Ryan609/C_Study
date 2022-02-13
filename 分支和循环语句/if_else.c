@@ -68,13 +68,51 @@
 // int main() {
 //     int n = 0;
 //     int re = 1;
+//     int sum = 0;
+
 //     scanf("%d", &n);
 //     for ( int i = 1; i <= n; i++)
 //     {
 //         re = re * i;
+//         sum = sum + re;
 //     }
-//     printf("%d\n", re);
+//     printf("%d\n", sum);
     
 //     return 0;
 // }
 //---------------------------------
+// int main() {
+//     int n = 0;
+//     int m = 0;
+//     for (int i = 1; i <= 10 ; i++)
+//     {
+//         
+//     } 
+// }
+//---------------------------------
+int main() {
+    int arr[] = {1,2,3,4,5,6,7,8,9,10};
+    int k = 9;
+
+    int length = sizeof(arr) / sizeof(arr[0]);
+    int left = 0;
+    int right = length - 1;
+    
+
+    while (left <= right)
+    {
+        int mid = (left + right) / 2;
+        if (arr[mid] < k)
+        {
+            left = mid + 1;
+        } else if (arr[mid] > k)
+        {
+            right = mid - 1;
+        } else 
+        {
+            printf("下标是: %d\n", mid);
+            break;
+        } 
+    }
+    return 0;
+}
