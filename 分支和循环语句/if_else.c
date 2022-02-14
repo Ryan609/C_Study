@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 
 //---------------------------------判断奇偶数
 // int main() {
@@ -116,4 +118,51 @@
 //     }
 //     return 0;
 // }
+//---------------------------------
 //---------------------------------多个字符从两端移动，向中间汇聚
+// int main() {
+//     char arr1[] = {"Hello World"};
+//     char arr2[] = {"***********"};
+
+//     int left = 0;
+//     int right = strlen(arr1) - 1;
+//     while (left <= right)
+//     {
+//         arr2[left] = arr1[left];
+//         arr2[right] = arr1[right];
+//         printf("%s\n", arr2);
+//         left++;
+//         right--;
+//     }
+//     return 0;
+// }
+//---------------------------------
+//---------------------------------输入密码 三次机会 错误提示退出程序
+// int main() {
+
+//     int i = 0;
+//     char passworld[20] = { 0 };
+
+//     for (i = 0; i < 3; i++)
+//     {
+//         printf("请输入密码: ");
+//         scanf("%s", passworld);
+//         if ( strcmp(passworld, "abcdef") == 0 )
+//         {
+//             printf("密码输入正确\n");
+//             break;
+//         } 
+//         else 
+//         {
+//             printf("密码输入错误,请重新输入\n");
+//         }  
+//     }
+
+//     if (i == 3)
+//     {
+//         printf("次数用完,程序退出");
+//     }
+    
+//     return 0;
+// }
+//---------------------------------
