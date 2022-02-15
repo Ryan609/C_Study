@@ -166,3 +166,60 @@
 //     return 0;
 // }
 //---------------------------------
+
+// int main() {
+//     int a = 0;
+//     int b = 0;
+//     scanf("%d %d", &a, &b);
+
+//     if(a == b) {
+//         printf("%d", a);
+//         printf("%c",'=');
+//         printf("%d\n", b);
+//     } else if (a > b)
+//     {
+//         printf("%d", a);
+//         printf("%c",'>');
+//         printf("%d\n", b);
+//     } else {
+//         printf("%d", a);
+//         printf("%c",'<');
+//         printf("%d\n", b);
+//     }
+    
+// }
+//---------------------------------BC19 反向输入一个数字
+// int main() 
+// {
+//     int num = 0;
+
+//     scanf("%d", &num);
+
+//     while(num) 
+//     {
+//         printf("%d", num % 10);
+//         num = num / 10;
+//     }
+//     return 0;
+// }
+//---------------------------------BC24 总成绩和平均分计算
+// int main() 
+// {
+//     float res = 0.00f;
+//     float res1 = 0.00f;
+//     float res2 = 0.00f;
+//     float num = 0.00f;
+//     float avrNum = 0.00f;
+    
+//     scanf("%f %f %f", &res, &res1, &res2);
+//     num = res + res1 + res2;
+//     avrNum = num / 3;
+    
+//     printf("%.2f %.2f", num, avrNum);
+//     return 0;
+// }
+//---------------------------------BC129
+
+//---------------------------------BC101
+
+//---------------------------------
