@@ -1,7 +1,8 @@
 {
   "files.associations": {
     "hello.C": "cpp",
-    "stdlib.h": "c"
+    "stdlib.h": "c",
+    "function.C": "cpp"
   },
   "C_Cpp_Runner.cCompilerPath": "/usr/bin/clang",
   "C_Cpp_Runner.cppCompilerPath": "/usr/bin/clang++",
