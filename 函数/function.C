@@ -43,7 +43,7 @@
 //         return fib(n - 1)+ fib(n-2);
 // }
 
-int fib(int n) //递归浪费时间，需要大量计算，递归不是好的办法
+int fib(int n)
 {
     int a = 1;
     int b = 1;
