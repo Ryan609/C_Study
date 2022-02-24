@@ -11,16 +11,30 @@
 //  return 0;
 //}
 //-----------------------------------
-int main()
-{
-    int arr1[] = {1,2,3,4}; //a b c \0
-    char arr2[] = { 'a', 'b', 'c' }; //a b c
-    
-    int sz = sizeof(arr1) / sizeof(arr1[0]);
-    
-    printf("%d\n", (int)strlen(arr2));
-    printf("%d\n", sz);
-    
-    return 0;
-}
+//int main()
+//{
+//  int arr1[] = {1,2,3,4}; //a b c \0
+//  char arr2[] = { 'a', 'b', 'c' }; //a b c
+//  
+//  int sz = sizeof(arr1) / sizeof(arr1[0]);
+//  
+//  printf("%d\n", (int)strlen(arr2));
+//  printf("%d\n", sz);
+//  
+//  return 0;
+//}
+//-----------------------------------求一个整数存储在内存中二进制中1的个数
+//int main() {
+//  int a = 0;
+//  scanf("%d", &a);
+//  int count = 0;
+//  
+//  for (int i = 0; i < 32; i++) {
+//      if (((a >> i) & 1) == 1) {
+//          count++;
+//      }
+//  }
+//  printf("%d\n", count);
+//  return 0;
+//}
 //-----------------------------------
