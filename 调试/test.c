@@ -16,16 +16,18 @@
 //	return 0;
 //}
 
+//int main() {
+//	int i = 0;
+//	int arr[10] = {0};
+//	for(i=0; i<=10; i++) {
+//			arr[i] = 0;
+//			printf("hehe\n");
+//	}
+//	return 0; 
+//}
+
 int main() {
-	int i = 0;
-	int arr[10] = {0};
-	for(i=0; i<=10; i++) {
-			arr[i] = 0;
-			printf("hehe\n");
-	}
-	return 0; 
+	
+	char a = -128;
+	printf("%u\n", a);
 }
-
-
-//test username
-//test 222222
