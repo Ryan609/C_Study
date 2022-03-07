@@ -28,6 +28,7 @@
 
 int main() {
 	
-	char a = -128;
-	printf("%u\n", a);
+	int i = -20;
+	unsigned int j = 10;
+	printf("%u\n", i+j);
 }
